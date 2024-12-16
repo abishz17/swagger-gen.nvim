@@ -2,9 +2,8 @@
 
 A Neovim plugin to generate Swagger documentation for Go Echo handlers using Claude AI.
 
+### Requirements
 ```
-Requirements
-Neovim >= 0.5.0
 ANTHROPIC_API_KEY environment variable set with your Claude API key
 nvim-treesitter
 plenary.nvim
