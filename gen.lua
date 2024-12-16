@@ -74,9 +74,6 @@ For the above code snippet , the response should be :
 //	@Description	creates an account with given data
 //	@Tags			accounts
 //	@Accept			json
-//	@Produce		json
-//
-//	@Security		namespace
 //	@Security		Bearer
 //	@Param			request	body		view.AccountView	true	"request body"
 //
@@ -92,7 +89,7 @@ For the above code snippet , the response should be :
 	local user_prompt = [[
     Handler Function:
     ]] .. handler_code .. [[
-    Generate commented swagger docs for this above handler function so echo-swagger can genrate swagger.dont include ``` go in the response. Just the comments.`
+    Generate commented swagger docs for this above handler function.dont include ``` go in the response. Just the comments.`
   ]]
 
 	local request_body = {
