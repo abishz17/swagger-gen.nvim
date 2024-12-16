@@ -15,7 +15,7 @@ plenary.nvim
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-    "yourusername/nvim-swagger-doc",
+    "abishz17/swagger-gen.nvim",
     dependencies = {
         "nvim-lua/plenary.nvim",
         "nvim-treesitter/nvim-treesitter",
@@ -26,7 +26,7 @@ plenary.nvim
 ### Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 ```lua
 use {
-    'yourusername/nvim-swagger-doc',
+    'abishz17/swagger-gen.nvim',
     requires = {
         'nvim-lua/plenary.nvim',
         'nvim-treesitter/nvim-treesitter',
